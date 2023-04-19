@@ -1,11 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react'
 import { Calendar, dateFnsLocalizer } from 'react-big-calendar'
-import {
-  format,
-  parse,
-  startOfWeek,
-  getDay
-} from 'date-fns'
+import { format, parse, startOfWeek, getDay } from 'date-fns'
 import enUS from 'date-fns/locale/en-US'
 import Modal from '../components/modal'
 import MyModal from '../components/inputModal'

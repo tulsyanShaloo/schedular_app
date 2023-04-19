@@ -22,7 +22,8 @@ const MyModal = ({ event, eventLists, onClose, visible, addEvent }) => {
   const [minDuration, setMinDuration] = useState(null)
   const [error, setError] = useState('')
 
-  useEffect(() => {console.log(event)
+  useEffect(() => {
+    console.log(event)
     const { end, start, title } = event
     if (start) {
       setStartTime(new Date(start))
